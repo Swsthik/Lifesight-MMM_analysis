@@ -1,0 +1,34 @@
+
+=== MARKETING MIX MODEL - BUSINESS SUMMARY ===
+
+MODEL PERFORMANCE:
+- R² Score: 0.146
+- MAPE: 262738.94%
+- Model explains 14.6% of revenue variance
+
+TOP REVENUE DRIVERS:
+- sms_send: 6666.34
+- cos_yearly: 5563.85
+- average_price: -4782.81
+- promotions: -3199.51
+- google_spend_residual: -3163.15
+
+MARKETING CHANNEL ROAS:
+- facebook_spend: $0.59 per $1 spent
+- tiktok_spend: $9.55 per $1 spent
+- instagram_spend: $5.22 per $1 spent
+- snapchat_spend: $7.49 per $1 spent
+
+PRICE ELASTICITY:
+- Price elasticity at 5% increase: -1.51
+- Price elasticity at 10% increase: -1.51
+
+PROMOTION IMPACT:
+- Revenue lift from promotions: -15.45%
+- Incremental revenue: $-7834.28
+
+RECOMMENDATIONS:
+1. Focus investment on highest ROAS channels
+2. Monitor price elasticity for optimal pricing strategy
+3. Strategic use of promotions for revenue boost
+4. Continue monitoring model performance with rolling validation
