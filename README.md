@@ -76,7 +76,11 @@ The model assumes the following causal structure:
 Social Media Channels → Google Spend → Revenue
                     ↘               ↗
                       → Revenue (direct)
+
+
 ```
+<img width="2243" height="1463" alt="Flowchart" src="https://github.com/user-attachments/assets/fd551453-8613-4d46-ae4a-3ca6734c94ea" />
+
 
 ### Two-Stage Approach
 
@@ -84,6 +88,7 @@ Social Media Channels → Google Spend → Revenue
 ```
 Google Spend = α + β₁×Facebook + β₂×TikTok + β₃×Instagram + β₄×Snapchat + ε₁
 ```
+<img width="2970" height="1769" alt="roas_analysis" src="https://github.com/user-attachments/assets/9b627c4d-1bfb-48e2-9ec4-b438bcc78fb6" />
 
 **Stage 2: Outcome Model**
 ```
@@ -95,11 +100,22 @@ Revenue = γ + δ₁×Social_Channels + δ₂×Google_Residual + δ₃×Controls
 - **Saturation Curves**: Models diminishing returns using half-saturation points
 - **Seasonality**: Sine/cosine transformations for weekly and bi-annual patterns
 - **Trend**: Linear time trend component
+<img width="4471" height="2965" alt="eda_overview" src="https://github.com/user-attachments/assets/3a812fc0-84d2-4cd1-b05b-8612528fcb88" />
+
+<img width="5971" height="3543" alt="executive_dashboard" src="https://github.com/user-attachments/assets/371b9671-b5c2-4867-af06-d202e90cb81b" />
+
+
+<img width="3565" height="2365" alt="residual_analysis" src="https://github.com/user-attachments/assets/0e433be5-da91-4e9e-86ba-86e5928362e4" />
 
 ### Model Selection
 - **ElasticNet Regression**: Balances Ridge and Lasso regularization
+
+<img width="4470" height="1765" alt="mediation_effects" src="https://github.com/user-attachments/assets/f68fc53b-3d8f-4e93-8330-292d014f4d8f" />
+
 - **Time Series CV**: 5-fold time series cross-validation
 - **Hyperparameter Tuning**: Grid search over α and l1_ratio parameters
+
+
 
 ## 📊 Key Outputs
 
@@ -120,7 +136,8 @@ Revenue = γ + δ₁×Social_Channels + δ₂×Google_Residual + δ₃×Controls
 - Model fit and residual plots
 - Business insight summaries
 
-## 📈 Business Applications
+## 📈 Business Applications<img width="2970" height="1765" alt="price_sensitivity" src="https://github.com/user-attachments/assets/2015dd14-8fc8-473b-894d-b6f71e010cb1" />
+
 
 ### Strategic Planning
 - **Budget Allocation**: Optimize spend across channels based on ROAS
@@ -204,6 +221,7 @@ Revenue = γ + δ₁×Social_Channels + δ₂×Google_Residual + δ₃×Controls
 ## 🤝 Contributing
 
 1. Fork the repository
+
 2. Create a feature branch
 3. Make improvements with proper documentation
 4. Add tests for new functionality
