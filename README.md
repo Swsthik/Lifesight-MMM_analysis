@@ -183,22 +183,6 @@ Revenue = γ + δ₁×Social_Channels + δ₂×Google_Residual + δ₃×Controls
 - Low ratios suggest direct revenue impact
 - Informs channel strategy and measurement
 
-## ⚠️ Limitations & Considerations
-
-### Model Assumptions
-- Linear relationships between transformed features
-- Stationary residuals assumption
-- No unmeasured confounding variables
-
-### Data Requirements
-- Sufficient historical data (recommended: 2+ years)
-- Consistent measurement across channels
-- Regular data quality monitoring
-
-### Business Context
-- External factors not captured in model
-- Competitive dynamics and market changes
-- Incrementality vs. correlation considerations
 
 ## 🔄 Model Maintenance
 
